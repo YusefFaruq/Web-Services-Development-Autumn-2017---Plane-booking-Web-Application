@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listings>
+    <flight>        
+        <departuredate>08/08/08</departuredate>  
+        <destinationdate>08/10/08</destinationdate>
+        <price>123</price>
+        <usedseats>4</usedseats>
+        <maxseats>100</maxseats>
+        <departure>Sydney</departure>
+        <destination>Melbourne</destination>
+        <type>economy</type>
+        <returndate>09/08/08</returndate>    
+    </flight>
+    <flight>        
+        <departuredate>10;10;10-08/08/08</departuredate>  
+        <destinationdate>10;10;10-08/08/08</destinationdate>
+        <price>200</price>
+        <usedseats>7</usedseats>
+        <maxseats>50</maxseats>
+        <departure>Sydney</departure>
+        <destination>Victoria</destination>
+        <type>First Class</type>
+        <returndate>01/08/08</returndate>    
+    </flight>
+    <flight>        
+        <departuredate>10;10;10-08/08/08</departuredate>  
+        <destinationdate>10;10;10-08/08/08</destinationdate>
+        <price>200</price>
+        <usedseats>7</usedseats>
+        <maxseats>50</maxseats>
+        <departure>Melbourne</departure>
+        <destination>Perth</destination>
+        <type>First Class</type>
+        <returndate>03/08/08</returndate>      
+    </flight>
+    <flight>        
+        <departuredate>10;10-08/02/08</departuredate>  
+        <destinationdate>10;10-08/02/08</destinationdate>
+        <price>200</price>
+        <usedseats>7</usedseats>
+        <maxseats>50</maxseats>
+        <departure>Melbourne</departure>
+        <destination>Victoria</destination>
+        <type>First Class</type>
+        <returndate>08/02/08</returndate>    
+    </flight>
+    <flight>        
+        <departuredate>10;10;10-08/09/08</departuredate>  
+        <destinationdate>10;10;10-08/10/08</destinationdate>
+        <price>200</price>
+        <usedseats>7</usedseats>
+        <maxseats>50</maxseats>
+        <departure>Sydney</departure>
+        <destination>Victoria</destination>
+        <type>First Class</type>
+        <returndate>08/08/08</returndate>      
+    </flight>
+</listings>
