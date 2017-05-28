@@ -3,6 +3,7 @@ package uts.wsd;
 
 import javax.xml.bind.annotation.*;
 import java.io.Serializable;
+import java.util.Date;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement
@@ -11,17 +12,23 @@ public class Customer implements Serializable {
     private String name;
     private String email;
     private String password;
-    private String dob;
+    private Date dob;
+    private Boolean admin;
+
+    
 
 
     public Customer() {
         super();
     }
 
-    public Customer(String email, String password) {
+    public Customer(String name, String email, String password, Date dob, Boolean admin) {
         super();
+        this.name = name;
         this.email = email;
         this.password = password;
+        this.dob = dob;
+        this.admin = admin;
     }
     
     public String getName() {
@@ -48,12 +55,20 @@ public class Customer implements Serializable {
         this.password = password;
     }
     
-    public String getDob() {
+    public Date getDob() {
         return dob;
     }
 
-    public void setDob(String dob) {
+    public void setDob(Date dob) {
         this.dob = dob;
+    }
+    
+    public Boolean getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(Boolean admin) {
+        this.admin = admin;
     }
 
 }

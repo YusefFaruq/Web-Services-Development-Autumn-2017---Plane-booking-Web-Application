@@ -6,7 +6,10 @@
         <title>Login Page</title>
     </head>
     <body bgcolor="#4CBF8C">
-        <h1>Customer Login Page</h1>
+        
+        <h1>Login Page</h1>
+        <p>Enter your login details below:</p>
+        
         <form align = "left" method="post" action="main.jsp">
               <table>
                 <tr>
@@ -25,5 +28,6 @@
                 </tr>
             </table>
               </form>
+        <p>If you don't have a login, please click <a href="register.jsp">here</a> to register or search <a href="main.jsp">here</a> without user privileges</p>
     </body>
 </html>

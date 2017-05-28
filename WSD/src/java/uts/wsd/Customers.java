@@ -5,7 +5,6 @@ import java.io.Serializable;
 import javax.xml.bind.annotation.*;
 import java.util.ArrayList;
 
-
 @XmlRootElement(name = "customers")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Customers implements Serializable {
@@ -23,6 +22,15 @@ public class Customers implements Serializable {
 
     public void removeCustomer(Customer customer) {
         list.remove(customer);
+    }
+    
+    public Customer getCustomer(String email) {
+        for (Customer customer : list) {
+            if (customer.getEmail().equals(email)) {
+                return customer;
+            }
+        }
+        return null;
     }
     
 
